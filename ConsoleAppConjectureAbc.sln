@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.37614.0 d17.14
+VisualStudioVersion = 17.14.37614.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppConjectureAbc", "ConsoleAppConjectureAbc\ConsoleAppConjectureAbc.csproj", "{2B7DFB75-0537-46D0-AAD1-3C74599A7C4D}"
 EndProject
@@ -10,6 +10,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppConjectureGilbreath", "ConsoleAppConjectureGilbreath\ConsoleAppConjectureGilbreath.csproj", "{CB5A8A11-2A12-42F9-ABAB-38F6795D77F6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppPrimeGapsNet9", "ConsoleAppPrimeGapsNet9\ConsoleAppPrimeGapsNet9.csproj", "{E78B5097-B8CC-4378-A538-DE2A9B1FC1BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppSearchForNextGapNet9", "ConsoleAppSearchForNextGapNet9\ConsoleAppSearchForNextGapNet9.csproj", "{301B879C-7930-404F-B83C-776959AB14E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppPocklington", "ConsoleAppPocklington\ConsoleAppPocklington.csproj", "{7F6111AD-B180-48D1-BA01-0567CE240052}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{E78B5097-B8CC-4378-A538-DE2A9B1FC1BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E78B5097-B8CC-4378-A538-DE2A9B1FC1BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E78B5097-B8CC-4378-A538-DE2A9B1FC1BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{301B879C-7930-404F-B83C-776959AB14E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{301B879C-7930-404F-B83C-776959AB14E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{301B879C-7930-404F-B83C-776959AB14E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{301B879C-7930-404F-B83C-776959AB14E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F6111AD-B180-48D1-BA01-0567CE240052}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F6111AD-B180-48D1-BA01-0567CE240052}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F6111AD-B180-48D1-BA01-0567CE240052}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F6111AD-B180-48D1-BA01-0567CE240052}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

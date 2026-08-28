@@ -111,7 +111,6 @@ gap   following the prime  reference
 (If you know of results beyond those in this table, please let us know.)
  * */
 
-const
 /*
 *Gap	After	  Gap	After	  Gap	After	    Gap	After
 0	2	      33	1327	  117	1349533	  247	191912783
@@ -220,13 +219,13 @@ gap   following the prime  reference
 (If you know of results beyond those in this table, please let us know.)
  * */
 
-ulong maxLong = ulong.MaxValue; // 18_446_744_073_709_551_615
+const ulong maxLong = ulong.MaxValue; // 18_446_744_073_709_551_615
 UInt128 maxUint128 = UInt128.MaxValue; // 340_282_366_920_938_463_463_374_607_431_768_211_455
-UInt128 startNumber = int.MaxValue;
-UInt128 endNumber = 2147483647UL + 1_000_000; // done up to 500_000_000;
+UInt128 startNumber = maxLong; // last known prime gap of 1853, after the prime 101_412_319_996_363_309_069
+UInt128 endNumber = 2147483647UL + 1_000_000; //
 List<UInt128> primeNumbers = new();
 List<string> primeGaps = new();
-for (UInt128 i = startNumber; i < endNumber; i++)
+for (UInt128 i = startNumber; i < endNumber; i += 2)
 {
   if (IsPrime(i))
   {
